@@ -1,5 +1,4 @@
-# habitat_architecture_training
-Repository for Habitat training notes and walkthro# Habitat Local Development - Windows
+# Habitat Local Development - Windows
 
 Developing Habitat packages locally in Windows can be done with docker or virtual box. The recommendation from NGSE is to use virtual box instead of docker at this time due the fact that many people are already familiar with these tools. There may be work in the future to include docker into the standard local development environment.
 
@@ -13,7 +12,6 @@ Required before you begin:
 - Github Account <https://github.com>
 - Habitat Builder Account <https://bldr.habitat.sh/#/sign-in> (sign in with GitHub and grant GitHub control it requests)
 - Habitat Origin (created from your Builder account)
-- Access Token (Also created from your Builder account)
 
 ### Creating your Origin
 
@@ -26,14 +24,6 @@ Give your origin an easy to remember name, such as your CDSID.
 Select _Publick Packages_.
 
 Click _Save & Continue_.
-
-### Setup your Access Token
-
-Click your profile icon in the top right and select _Profile_.
-
-At the bottom of the page where it says **Personal Access Token**, click the _Generate Token_ button.
-
-Once generated, this can be copied and stored somewhere secure, you will need it later when running through the installation process.
 
 ## Install ToolChain
 
