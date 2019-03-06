@@ -167,7 +167,7 @@ It is easier to create a directory to work from on your desktop.
 
 ``` Powershell
 
-#Navigate to your desktop
+#Navigate to your desktop and replace <Your username> with your CDSID
 cd Windows\Users\<Your username>\Desktop
 
 #Create a folder to any git repository files to be copied to, and for Habitat Initialise files to be created
@@ -179,4 +179,10 @@ cd habitat_training
 ```
 
 ### Fork the habitat training repository on gitbub into your own git. 
+ 
+Open the following link:
+https://github.ford.com/NGSE/Habitat
+
+You can login using Active Directory to the Ford github.
+
 [Back to Main](README.md)
