@@ -137,7 +137,13 @@ HAB_AUTH_TOKEN                 _Qk9YLTEKYsmdfksdjfGHJGGJHGkdsfjhkaSDSDSDKJKLSJDL
 HAB_ORIGIN                     abaker9
 
 ```
+### Setup Habitat
+```Powershell
 
+#run Habitat setup
+hab setup
+
+Connect to an on-premises bldr instance? [Yes/no/quit] yes
 
 
 [Back to Main](README.md)
