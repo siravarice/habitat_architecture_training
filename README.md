@@ -17,11 +17,23 @@ Required before you begin:
 
 ### Creating your Origin
 
-Log into your Habitat Builder account, click your profile icon in the top right and then click _profile_.
+Log into your Habitat Builder account, click _My Origins_ in the left hand bar.
+
 Click the _Create Origin_ button. 
+
 Give your origin an easy to remember name, such as your CDSID.
+
 Select _Publick Packages_.
+
 Click _Save & Continue_.
+
+### Setup your Access Token
+
+Click your profile icon in the top right and select _Profile_.
+
+At the bottom of the page where it says **Personal Access Token**, click the _Generate Token_ button.
+
+Once generated, this can be copied and stored somewhere secure, you will need it later when running through the installation process.
 
 ## Install ToolChain
 
