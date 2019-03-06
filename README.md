@@ -3,13 +3,25 @@ Repository for Habitat training notes and walkthro# Habitat Local Development - 
 
 Developing Habitat packages locally in Windows can be done with docker or virtual box. The recommendation from NGSE is to use virtual box instead of docker at this time due the fact that many people are already familiar with these tools. There may be work in the future to include docker into the standard local development environment.
 
-## Local Workstation Access
+## Getting Started
 
 Required before you begin:
 
 - User GPO = 100
 - Computer GPO = 100
 - Local admin rights
+- Github Account <https://github.com>
+- Habitat Builder Account <https://bldr.habitat.sh/#/sign-in> (sign in with GitHub and grant GitHub control it requests)
+- Habitat Origin (created from your Builder account)
+- Access Token (Also created from your Builder account)
+
+### Creating your Origin
+
+Log into your Habitat Builder account, click your profile icon in the top right and then click _profile_.
+Click the _Create Origin_ button. 
+Give your origin an easy to remember name, such as your CDSID.
+Select _Publick Packages_.
+Click _Save & Continue_.
 
 ## Install ToolChain
 
@@ -181,8 +193,6 @@ cd habitat_training
 ### Fork the habitat training repository on gitbub into your own git. 
  
 Open the following link:
-https://github.ford.com/NGSE/Habitat
-
-You can login using Active Directory to the Ford github.
+https://github.com/chef-training/habitat_jumpstart
 
 [Back to Main](README.md)
