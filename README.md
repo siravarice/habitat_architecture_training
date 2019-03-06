@@ -145,5 +145,38 @@ hab setup
 
 Connect to an on-premises bldr instance? [Yes/no/quit] yes
 
+Private builder url: [default: http://ito000604.fhc.ford.com]
 
+Set up a default origin? [Yes/no/quit] yes
+
+Default origin name: [default: <your username>]
+
+Set up a default Habitat personal access token? [Yes/no/quit] yes
+
+Habitat personal access token: [default: <Your Personal Token>]
+
+Set up a default Habitat Supervisor CtlGateway secret? [Yes/no/quit] no
+
+Add binlink directory to PATH? [Yes/no/quit] yes
+
+Enable analytics? [Yes/no/quit] no
+```
+## Create Directory to work from
+
+It is easier to create a directory to work from on your desktop.
+
+``` Powershell
+
+#Navigate to your desktop
+cd Windows\Users\<Your username>\Desktop
+
+#Create a folder to any git repository files to be copied to, and for Habitat Initialise files to be created
+mkdir habitat_training
+
+#Navigate to your new folder
+cd habitat_training
+
+```
+
+### Fork the habitat training repository on gitbub into your own git. 
 [Back to Main](README.md)
