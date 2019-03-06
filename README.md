@@ -106,7 +106,7 @@ Visit [Profile Page on Habitat Depot server](http://ito000604.fhc.ford.com/#/pro
 ```PowerShell
 #Define Environment
 $HAB_BLDR_URL = 'http://ito000604.fhc.ford.com'
-$HAB_AUTH_TOKEN = '_Qk9YLTEKYsmdfksdjfGHJGGJHGkdsfjhkaSDSDSDKJKLSJDLKSLKDSKLDJSLKDJLKShfadhsfkasksjadkashdushaJKHKJSHshSKDhkjshkSHDSKJJDkjHSDJkhKJDHLKSLKalkslakjsLKJWKLHWEKJHSDKLHhjsadjhsadg==' #<- Must replace <Your Habitat Personal Token> with token generated from Habitat Depot server
+$HAB_AUTH_TOKEN = '<Your Habitat Personal Token>' #<- Must replace <Your Habitat Personal Token> with token generated from Habitat Depot server
 $HAB_ORIGIN = ($env:username).tolower() #Can change to another origin if needed
 
 Set-LocalEnvironmentVariable -name HAB_BLDR_URL -value $HAB_BLDR_URL -Type User
@@ -138,5 +138,6 @@ HAB_ORIGIN                     abaker9
 
 ```
 
+
+
 [Back to Main](README.md)
-ugh
