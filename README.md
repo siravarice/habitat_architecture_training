@@ -2,7 +2,7 @@
 
 I have colated some links to various articles and videos below for a nice start on what Habitat is.
 
-[Getting Started with Habitat Part 1: Core Concepts](https://www.youtube.com/watch?v=KczmEZWhiCs)
+[Getting Started with Habitat Part 1: Core Concepts](https://www.youtube.com/playlist?list=PL11cZfNdwNyM4hc9bYnA9f_mbZpkDrNpM)
 
 # Habitat Local Development - Windows
 
