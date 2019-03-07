@@ -1,3 +1,9 @@
+# What is Habitat?
+
+I have colated some links to various articles and videos below for a nice start on what Habitat is.
+
+[Getting Started with Habitat Part 1: Core Concepts](https://www.youtube.com/watch?v=KczmEZWhiCs)
+
 # Habitat Local Development - Windows
 
 Developing Habitat packages locally in Windows can be done with docker or virtual box. The recommendation from NGSE is to use virtual box instead of docker at this time due the fact that many people are already familiar with these tools. There may be work in the future to include docker into the standard local development environment.
