@@ -41,3 +41,5 @@ There are broadly two ways to manage your configurations namely Push and Pull co
 
 * **Pull Configuration:**  In this type of Configuration Management, the nodes poll a centralized server periodically for updates. These nodes are dynamically configured so basically they are pulling configurations from the centralized server. Pull configuration is used by tools like Chef, Puppet etc.
 * **Push Configuration:** In this type of Configuration Management, the centralized Server pushes the configurations to the nodes. Unlike Pull Configuration, there are certain commands that have to be executed in the centralized server in order to configure the nodes. Push Configuration is used by tools like Ansible.
+
+![](images/Push-and-Pull-Configuration-What-Is-Chef-Edureka-3.gif)
