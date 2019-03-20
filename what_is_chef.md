@@ -36,3 +36,8 @@ To solve this problem, Configuration Management was introduced. By using Configu
 * Redoing an implementation because the requirements have changed since the last implementation.
 * Reverting to a previous version of the component if you have replaced with a new but flawed version.
 * Replacing the wrong component because you couldn’t accurately determine which component was supposed to be replaced.
+
+There are broadly two ways to manage your configurations namely Push and Pull configurations.
+
+* **Pull Configuration:**  In this type of Configuration Management, the nodes poll a centralized server periodically for updates. These nodes are dynamically configured so basically they are pulling configurations from the centralized server. Pull configuration is used by tools like Chef, Puppet etc.
+* **Push Configuration:** In this type of Configuration Management, the centralized Server pushes the configurations to the nodes. Unlike Pull Configuration, there are certain commands that have to be executed in the centralized server in order to configure the nodes. Push Configuration is used by tools like Ansible.
