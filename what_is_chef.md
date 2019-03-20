@@ -43,3 +43,25 @@ There are broadly two ways to manage your configurations namely Push and Pull co
 * **Push Configuration:** In this type of Configuration Management, the centralized Server pushes the configurations to the nodes. Unlike Pull Configuration, there are certain commands that have to be executed in the centralized server in order to configure the nodes. Push Configuration is used by tools like Ansible.
 
 ![](images/Push-and-Pull-Configuration-What-Is-Chef-Edureka-3.gif)
+
+## What Is Chef – Configuration Management With Chef
+We have understood what is Chef, now I will explain you how Chef achieves Configuration Management with a use-case. Gannett is a publicly traded American media holding company. It is the largest U.S. newspaper publisher as measured by total daily circulation.
+
+Gannett’s traditional deployment workflow was characterized by multiple handoffs and manual tests. Let us see what were the problems they faced with this process:
+
+* Maintaining accurate, repeatable builds was difficult.
+* There were many build failures and tests were often running in the wrong environments.
+* Deployment and provisioning times could range from a few days to several weeks.
+* Operations team didn’t have access to the cloud or development environments.
+* Every group used its own tool-set, and there was no accountability to finance or security. No one knew how much an application actually cost. Security had no way to audit the software stacks.
+Gannett was ready for the change. Developers wanted to deploy their applications quickly. Operations wanted a stable infrastructure where they could build and deploy in a repeatable way. Finance wanted to know the true cost of an application. Security wanted to view and audit all stacks and to be able to track changes.
+
+Gannett saw that cloud as a service offered many advantages. Developers had access to standardized resources. It was easier to handle peaky traffic because of cloud’s compute-on-demand model, and handoffs were minimized.
+
+Chef allows you to dynamically provision and de-provision your infrastructure on demand to keep up with peaks in usage and traffic. It enables new services and features to be deployed and updated more frequently, with little risk of downtime. With Chef, you can take advantage of all the flexibility and cost savings that cloud offers. 
+
+Let us see what were the functions performed by Chef at Gannett:
+
+* Gannett started building VPC (Virtual Private Cloud) for development environment that would mimic the production. None of the tools that they were already using were appropriate. But they found that Chef worked well with the cloud and both Linux and Windows environment. They used Chef to build a development environment that perfectly matched production environment.
+* For an application to move into the VPC, it had to be provisioned and deployed with Chef.
+* Security would be involved early on and would manage the mandatory controls for access to Chef and for maintaining system security standards.
