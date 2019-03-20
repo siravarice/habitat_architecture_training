@@ -65,3 +65,5 @@ Let us see what were the functions performed by Chef at Gannett:
 * Gannett started building VPC (Virtual Private Cloud) for development environment that would mimic the production. None of the tools that they were already using were appropriate. But they found that Chef worked well with the cloud and both Linux and Windows environment. They used Chef to build a development environment that perfectly matched production environment.
 * For an application to move into the VPC, it had to be provisioned and deployed with Chef.
 * Security would be involved early on and would manage the mandatory controls for access to Chef and for maintaining system security standards.
+
+![](images/Gannet-After-Chef-What-Is-Chef-Edureka.png)
