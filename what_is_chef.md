@@ -8,4 +8,4 @@ Chef is an automation tool that provides a way to define infrastructure as code.
 
 Like Puppet which has a Master-Slave architecture even Chef has a Client-Server architecture. But Chef has an extra component called Workstation. I will talk about workstation in my next blog. Refer the diagram below:
 
-![](images/
+![](images/Chef-vs-Puppet-What-is-Chef-Edureka-1.png)
