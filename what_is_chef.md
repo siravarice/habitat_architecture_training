@@ -67,3 +67,9 @@ Let us see what were the functions performed by Chef at Gannett:
 * Security would be involved early on and would manage the mandatory controls for access to Chef and for maintaining system security standards.
 
 ![](images/Gannet-After-Chef-What-Is-Chef-Edureka.png)
+
+Now is the time to understand what were the results of this process:
+
+* Gannett’s deployment became quicker and more reliable. Application provisioning and deployment, which once took weeks, after using Chef it took minutes.
+* All new applications were deployed on the cloud with Chef. These applications were deployed to all environments in the same way that they were deployed to production. Also, testing occurred in each environment, so that the deployments were reliable.
+* All infrastructure was treated as code, which greatly increases visibility into any changes that occurred. Development, Operations, Security and Finance all were benefited from this.
