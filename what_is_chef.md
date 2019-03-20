@@ -24,3 +24,15 @@ Now, let us look at reasons behind the popularity of Chef.
 ### According to Phil Dibowitz, Production Engineer, Facebook
 
 *“There are three dimensions of scale we generally look at for infrastructure — the number of servers, the volume of different configurations across those systems, and the number of people required to maintain those configurations. Chef provided an automation solution flexible enough to bend to our scale dynamics without requiring us to change our workflow.”*
+
+Without a doubt Chef is one of the most famous Configuration Management tools and is closely competing with Puppet. But, before diving deep into “What is Chef”, it’s only fair that I first explain what is Configuration Management and why it is important.
+
+## Configuration Management
+Let us understand Configuration Management this way – suppose you have to deploy a software on top of hundreds of systems. This software can be an operating system or a code or it can be an update of an existing software. You can do this task manually, but what happens if you have to finish this task overnight because tomorrow might be a Big Billion Day sale in the company or some Mega Sale etc. in which heavy traffic is expected. Even if you were able to do this manually there is a high possibility of multiple errors on your big day. What if the software you updated on hundreds of systems is not working, then how will you revert back to the previous stable version, will you be able to do this task manually? AF-course not!
+
+To solve this problem, Configuration Management was introduced. By using Configuration Management tools like Chef, Puppet, etc. you can automate this task. All you have to do is to specify the configurations in one centralized server and accordingly all the nodes will be configured. It allows access to an accurate historical record of system state for project management and audit purposes. So basically, we need to specify the configurations once on the central server and replicate that on thousands of nodes. Configuration Management helps in performing the below tasks in a very structured and easy way:
+
+* Figuring out which components to change when requirements change.
+* Redoing an implementation because the requirements have changed since the last implementation.
+* Reverting to a previous version of the component if you have replaced with a new but flawed version.
+* Replacing the wrong component because you couldn’t accurately determine which component was supposed to be replaced.
